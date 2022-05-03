@@ -1,0 +1,86 @@
+* { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #292b2c;
+}
+
+footer { 
+    padding: 10px;
+    text-align: center;
+    background-color: #292b2c; 
+}
+
+footer h6, footer a { 
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+
+.list-group {
+    max-height: 469px;
+    max-height: 469px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.list-group li:hover { 
+    background-color: #343a40; 
+    color: white; 
+}
+
+.list-group li { 
+    border: none;
+}
+
+#cesiumContainer { 
+    height: 500px;
+}
+
+.container-fluid { 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panel-body, .table { 
+    border: solid 1px lightgray;
+}
+
+#value, #units { 
+    font-weight: normal;
+    font-style: italic;
+    width: 300px;
+    overflow: hidden;
+}
+
+tr { 
+    white-space: nowrap;
+}
+
+.navbar-brand { 
+    font-style: italic;
+    font-weight: bold;
+}
+
+#about { 
+    text-align: justify;
+}
+
+/* ClassLists */ 
+.selected { 
+    background-color: #292b2c; 
+    color: white; 
+}
+
+.error { 
+    color: red; 
+    font-weight: bold;
+}
