@@ -1,0 +1,158 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html { 
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body { 
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#tools { 
+    padding: 10px;
+}
+
+#cesiumContainer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#cesiumContainer button {
+    top: 2.5px;  
+    background-color: rgba(0, 0, 0, 0);
+    transform: scale(1.2,1.2);
+}
+
+#search {
+    transition: .15s;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 40%; 
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+#search::-webkit-input-placeholder{
+    color:white !important; 
+}
+#search:-moz-placeholder {
+    color:white !important; 
+}
+#search:focus { 
+    color: black;
+    background-color: white;
+}
+
+#sat-data { 
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+}
+
+#toggle-data { 
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    width: 25%;
+    max-height: 59vh;
+    display: inline-block;
+    position: absolute;
+    top: 95px;
+    left: 5px;
+    overflow: scroll;
+    overflow-wrap: break-word;
+}
+
+#satcat-btn { 
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+#satcat { 
+    height: 20px;
+}
+
+#satcat-info { 
+    display: block;
+    table-layout: fixed;
+    position: absolute;
+    bottom: 38px;
+    right: 5px;
+    width: 99.3vw;
+    color: white;
+    border: 2px white solid; 
+    border-radius: 10px;
+    border-radius: 5px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+td { 
+    width: 10%;
+}
+
+#error { 
+    position: absolute; 
+    font-size: larger;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+    top: 0; 
+    left: 0;
+}
+
+.showHide{ 
+    visibility: hidden;
+}
+
+.cesium-selection-wrapper { 
+    position: absolute;
+    visibility: hidden;
+}
+.cesium-selection-wrapper-visible{ 
+    visibility: hidden;
+}
+/*svg { 
+    visibility: hidden;
+}*/
+
+.cesium-viewer-infoBoxContainer button{ 
+    visibility: hidden;
+}
+
+.searchFailed {
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+}
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+} 
