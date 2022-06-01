@@ -148,10 +148,13 @@ view about.html page...
 - [x] Deploy to Heroku 
 
 ### Phase 2 (In progress) 
-- [ ] Search function 
-- [ ] Optimize for mobile
+- [x] Search function 
+- [x] Optimize for mobile
 - [ ] Popup descriptions of a satellite (will need to scrape web for this) 
-- [ ] Show all satellites, not just select one at a time 
+- [x] Show all satellites, not just select one at a time 
+
+### Phase 3 
+- [ ] Dynamic PDF generation for selected satellite data 
 
 <!-- See the [open issues](https://github.com/kliam11/sat-track-web/issues) for a full list of proposed features (and known issues). --> 
 
