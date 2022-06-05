@@ -133,28 +133,27 @@ view about.html page...
 ### Phase 1 (Completed May 7th)
 - [x] Develop back-end for data retrieval 
     - [x] Scheduled server tasks for updating dataset for the day 
-    - [x] API limiter 
     - [x] Prepare backup data for when data retrieval fails 
-- [x] Front-end display 
+- [x] Front-end display start 
     - [x] Show the date of the current dataset and if the data being used is actually a backup 
     - [x] Satellite selector 
-    - [ ] About page 
     - [x] Orbital visualization on Cesium globe  
-      - [x] Represent with an icon rather than a basic red dot 
     - [x] TLE parsing and display in table 
-    - [x] Globe interaction and popups next to the clicked satellite
     - [x] Path outlines of the orbit  
 - [x] Non-LEO orbits (needs SDP4 to work) 
-- [x] Deploy to Heroku 
 
 ### Phase 2 (In progress) 
 - [x] Search function 
-- [x] Optimize for mobile
-- [ ] Popup descriptions of a satellite (will need to scrape web for this) 
+- [x] Improve client for mobile
+- [ ] Allow users to edit descriptions of a satellite 
 - [x] Show all satellites, not just select one at a time 
 
 ### Phase 3 
-- [ ] Dynamic PDF generation for selected satellite data 
+- [ ] Dynamic PDF generation for selected satellite data ("data exports") 
+- [ ] Field of View (FOV) for satellite 
+
+### Phase 4 
+- [ ] About/FAQ page 
 
 <!-- See the [open issues](https://github.com/kliam11/sat-track-web/issues) for a full list of proposed features (and known issues). --> 
 
