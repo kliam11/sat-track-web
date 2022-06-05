@@ -147,6 +147,7 @@ view about.html page...
 - [x] Improve client for mobile
 - [ ] Allow users to edit descriptions of a satellite 
 - [x] Show all satellites, not just select one at a time 
+  - [ ] Make objects different colors depending on satellite type (payload, debris, etc.) 
 
 ### Phase 3 
 - [ ] Dynamic PDF generation for selected satellite data ("data exports") 
